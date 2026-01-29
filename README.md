@@ -20,8 +20,7 @@ EcoENERGYHome21 is an academic data science and development project focused on a
 - Pandas, NumPy, Scikit-learn
 - Jupyter Notebook
 - Streamlit
-- SQLite
-- Power BI (external dashboards)
+- SQLite / SQLAlchemy
 
 ##  Project Structure
 EcoENERGYHome21/
