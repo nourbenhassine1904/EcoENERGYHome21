@@ -1,0 +1,13 @@
+# Data (too large)
+data/raw/
+data/processed/
+*.csv
+
+# Models (too large)
+models/*.joblib
+models/*.pkl
+
+# DB & cache
+*.db
+__pycache__/
+.ipynb_checkpoints/

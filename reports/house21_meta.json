@@ -1,0 +1,27 @@
+{
+  "house": 21,
+  "resample": "1min_mean",
+  "zero_runs_to_nan_minutes": 10,
+  "interpolation_limit_minutes": 60,
+  "fillna": "time interpolation + per-column median",
+  "smoothing_aggregate_window": 3,
+  "winsor_high_q": 0.999,
+  "scaler": "RobustScaler (fit on train)",
+  "columns": [
+    "Unix",
+    "Aggregate",
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "period": [
+    "2014-03-07 16:20:00",
+    "2015-07-10 11:56:00"
+  ]
+}
